@@ -12,6 +12,8 @@ namespace CSharpPractice
         {
             Welcome welcome = new Welcome();
             welcome.Display();
+            Declarationvar dc = new Declarationvar();
+            dc.Declaration();
             Console.ReadLine();
         }
     }
